@@ -1,0 +1,40 @@
+body {
+	box-sizing: border-box;
+	background: url(./dengi-uleteli-fon.jpg) no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+.wrap {
+	display: flex;
+	justify-content: center;
+	max-width: 1300px;
+	padding-top: 200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.select {
+	width: 100px;
+	height: 30px;
+}
+
+.input {
+	width: 200px;
+	height: 24px;
+}
+
+.input:disabled {
+	background-color: rgb(236, 236, 236);
+}
+
+.conversion-from {
+	margin-right: 30px;
+}
+
+.button {
+	display: block;
+	width: 150px;
+	height: 30px;
+	margin: 0 auto;
+}
